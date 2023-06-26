@@ -75,7 +75,7 @@ export default function MemberDetails() {
             <TeamCard
               name="Surzith Raj Pandi"
               description="CSE undergrad with passion for cars. I am a curious and adaptable person who loves to learn and explore new things. "
-              link="/TeamImages/srp.jpg"
+              link="/TeamImages/srp.jpeg"
             />
           </div>
           <div>

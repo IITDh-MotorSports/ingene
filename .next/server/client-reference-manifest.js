@@ -478,11 +478,11 @@ self.__RSC_MANIFEST={
     "C:\\Users\\sarth\\Desktop\\ingene\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\layout": [
-      "static/css/app/team/layout.css"
-    ],
     "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page": [
       "static/css/app/team/page.css"
+    ],
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\layout": [
+      "static/css/app/team/layout.css"
     ]
   },
   "clientModules": {
@@ -1173,20 +1173,6 @@ self.__RSC_MANIFEST={
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\extra.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/team/layout.css"
-      ]
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\team\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/team/layout.css"
-      ]
-    },
     "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\frontPage.js": {
       "id": "(app-client)/./app/components/frontPage.js",
       "name": "*",
@@ -1473,6 +1459,20 @@ self.__RSC_MANIFEST={
         "app/team/page:static/chunks/app/team/page.js"
       ],
       "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\extra.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\team\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
     }
   }
 }
