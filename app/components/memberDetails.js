@@ -57,13 +57,13 @@ export default function MemberDetails() {
               link="/TeamImages/02584B0C-C50E-4205-A4FD-F6D13D5D1215 - Gudapareddy Naganandini.jpeg"
             />
           </div>
-          {/* <div>
+          <div>
             <TeamCard
               name="Soham Khapre"
-              description="what do u do in this team?"
-              link="/TeamImages/20230514_120609 - Soham Khapre.jpg"
+              description="I am in chassis team. I am interested in working alongside powertrain department for effective manufacturing and functioning of the automobile."
+              link="/TeamImages/SohamKhapre.jpg"
             />
-          </div> */}
+          </div>
           <div>
             <TeamCard
               name="Simoni Tripathi"
@@ -75,7 +75,7 @@ export default function MemberDetails() {
             <TeamCard
               name="Surzith Raj Pandi"
               description="CSE undergrad with passion for cars. I am a curious and adaptable person who loves to learn and explore new things. "
-              link="/TeamImages/IMG_3720 - S. Surzith Raj Pandi.jpg"
+              link="/TeamImages/srp.jpg"
             />
           </div>
           <div>
