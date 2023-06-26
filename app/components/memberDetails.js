@@ -11,7 +11,7 @@ export default function MemberDetails() {
           <div>
             <TeamCard
               name="Yadav Vansh Suresh"
-              description="what do u do in this team?"
+              description="As the secretary and team leader of InGene Motorsports, I handle the serious stuff with a touch of humor, ensuring our team stays on track and laughing all the way to the finish line."
               link="/TeamImages/IMG_20220307_183329__01__01 - Yadav Vansh Suresh.jpg"
             />
           </div>
@@ -32,7 +32,7 @@ export default function MemberDetails() {
           <div>
             <TeamCard
               name="Ayush Singhi"
-              description="I is poopsicle. I require more waman in electrical department. Arigatou "
+              description="EE '25 "
               link="/TeamImages/Singhi.jpg"
             />
           </div>
