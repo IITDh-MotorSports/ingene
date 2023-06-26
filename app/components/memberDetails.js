@@ -18,7 +18,7 @@ export default function MemberDetails() {
           <div>
             <TeamCard
               name="Varun Shantanu Limaye"
-              description="what do u do in this team?"
+              description="Core team member, currently working in the brakes and suspension department."
               link="/TeamImages/IMG_20221126_220957~2 - Varun Shantanu Limaye.jpg"
             />
           </div>
