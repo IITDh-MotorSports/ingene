@@ -8,7 +8,7 @@ const blogData: Blog[] = [
     paragraph:
       "Club Secretary, Aerodynamics Team Head",
     image: "./images/blog/IMG_20220307_183329__01__01 - Yadav Vansh Suresh.jpg",
-
+    team: "secretary",
   },
   // Aerodynamics Team
   {
@@ -17,7 +17,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/Rudra - Rudra Rudra.jpg",
-
+    team: "aerodynamics",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_20230112_141607 - Ankit Kumar.jpg",
-
+    team: "aerodynamics",
   },
   // Powertrain Team
   {
@@ -34,7 +34,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Head",
     image: "./images/blog/IMG_20230520_124748 - Harsh Vardhan Chowdhary.jpg",
-
+    team: "powertrain",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/WhatsApp Image 2023-06-25 at 21.57.35 Devansh.jpg",
-
+    team: "powertrain",
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/ingene photo - Tejas Ajit Mhaiskar.jpg",
-
+    team: "powertrain",
   },
   // Suspension Team
   {
@@ -59,7 +59,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Head",
     image: "./images/blog/IMG_20230321_192316 - Arindam Thander.jpg",
-
+    team: "suspension",
   },
   {
     id: 8,
@@ -67,7 +67,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_20221126_220957~2 - Varun Shantanu Limaye.jpg",
-
+    team: "suspension",
   },
   {
     id: 9,
@@ -75,16 +75,16 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/WhatsApp Image 2023-05-17 at 01.33.35 - Ratish Sinha.jpg",
-
+    team: "suspension",
   },
   // Brakes Team
   {
     id: 10,
     title: "Varun Limaye",
     paragraph:
-      "Team Head",
+      "Team ead",
     image: "./images/blog/IMG_20221126_220957~2 - Varun Shantanu Limaye.jpg",
-
+    team: "brakes",
   },
   {
     id: 11,
@@ -92,7 +92,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_20230430_141145 - Kute Yash Satish.jpg",
-
+    team: "brakes",
   },
   {
     id: 12,
@@ -100,7 +100,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_20230513_171551 - Lokesh B Jogi.jpg",
-
+    team: "brakes",
   },
   //Chassis Team
   {
@@ -109,15 +109,15 @@ const blogData: Blog[] = [
     paragraph:
       "Team Head",
     image: "./images/blog/Hari_Prasad_P.jpg",
-
+    team: "chassis",
   },
   {
     id: 14,
     title: "Arindam Thander",
     paragraph:
-      "Team Member",
-      image: "./images/blog/IMG_20230321_192316 - Arindam Thander.jpg",
-
+    "Team Member",
+    image: "./images/blog/IMG_20230321_192316 - Arindam Thander.jpg",
+    team: "chassis",
   },
   {
     id: 15,
@@ -125,7 +125,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_20221126_220957~2 - Varun Shantanu Limaye.jpg",
-
+    team: "chassis",
   },
   // Steering Team
   {
@@ -134,7 +134,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Head",
     image: "./images/blog/Screenshot_20230516-093249_Gallery - Anurag Goel.jpg",
-
+    team:"steering"
   },
   {
     id: 17,
@@ -142,7 +142,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_20230520_124748 - Harsh Vardhan Chowdhary.jpg",
-
+    team:"steering"
   },
   {
     id: 18,
@@ -150,7 +150,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_3720 - S. Surzith Raj Pandi.jpg",
-
+    team:"steering"
   },
   //Electronis Team
   {
@@ -159,7 +159,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Head",
     image: "./images/blog/singhi.jpg",
-
+    team:"electronics"
   },
   {
     id: 20,
@@ -167,7 +167,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/IMG_20221211_105347 - Upamaka S V B S B Abhinay.jpg",
-
+    team:"electronics"
   },
   {
     id: 21,
@@ -175,7 +175,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/SAVE_20230515_062900 - Ayush Mallick.jpg",
-
+    team:"electronics"
   },
   // Outreach / Media Team
   {
@@ -184,7 +184,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Head",
     image: "./images/blog/IMG_20230517_163633 - Manindra Singh Rathore.jpg",
-
+    team:"media"
   },
   {
     id: 23,
@@ -192,7 +192,7 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/02584B0C-C50E-4205-A4FD-F6D13D5D1215 - Gudapareddy Naganandini.jpeg",
-
+    team:"media"
   },
   {
     id: 24,
@@ -200,15 +200,40 @@ const blogData: Blog[] = [
     paragraph:
       "Team Member",
     image: "./images/blog/20230516_202329 - Simoni Tripathi.jpg",
-
+    team:"media"
   },
   {
     id: 25,
     title: "Bidipta Saha",
     paragraph:
       "Team Member",
-    image: "./images/blog/20230516_202329 - Simoni Tripathi.jpg",
-
+    image: "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+    team:"media"
+  },
+  //webops
+  {
+    id: 26,
+    title: "Dhiraj Borse",
+    paragraph:
+      "Team Head",
+    image: "./images/blog/borse.jpg",
+    team:"webops"
+  },
+  {
+    id: 27,
+    title: "Saksham Chhimwal",
+    paragraph:
+      "Team Member",
+    image: "./images/blog/saks.jpg",
+    team:"webops"
+  },
+  {
+    id: 28,
+    title: "Sarth Rajain",
+    paragraph:
+      "Team Member",
+    image: "./images/blog/sarth.jpg",
+    team:"webops"
   },
 ];
 export default blogData;
