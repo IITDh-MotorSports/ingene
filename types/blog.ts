@@ -9,5 +9,5 @@ export type Blog = {
   title: string;
   paragraph: string;
   image: string;
-  
+  team: string
 };
