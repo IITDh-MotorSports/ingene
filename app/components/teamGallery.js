@@ -15,7 +15,7 @@ import Image from "next/image";
 import Navbar from "../components/navbar";
 export default function TeamGallery() {
   return (
-    <div className="max-w-screen h-screen overflow-hidden py-10 ">
+    <div className="max-w-screen mb-4 overflow-hidden py-10 ">
       <Navbar />
       <div className="w-screen max-h-screen overflow-hidden fixed -z-10 top-0">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 w-screen h-screen">
@@ -116,10 +116,11 @@ export default function TeamGallery() {
             Meet The Team
           </h2>
           <p className="mt-6 text-lg leading-8 text-white">
-            Our club brings together a diverse range of students from various disciplines, including
-            engineering, computer science, business, and design, who share a common enthusiasm for
-            motorsports. We believe in fostering teamwork, innovation, and excellence, both on and
-            off the track.
+            Our club brings together a diverse range of students from various
+            disciplines, including engineering, computer science, business, and
+            design, who share a common enthusiasm for motorsports. We believe in
+            fostering teamwork, innovation, and excellence, both on and off the
+            track.
           </p>
         </div>
         {/* <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

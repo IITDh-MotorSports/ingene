@@ -11,6 +11,9 @@ export default function MemberDetails() {
     categories.add(member.team);
   });
   const categoriesArray = Array.from(categories);
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
   return (
     <div className="h-screen w-screen p-6">
       <div className="bg-transparent h-screen">
@@ -18,7 +21,9 @@ export default function MemberDetails() {
           {categoriesArray?.map((category) => {
             return (
               <div>
-                <p style={{ fontSize: "2rem" }}>{category}</p>
+                <p style={{ fontSize: "2rem" }}>
+                  {capitalizeFirstLetter(category)}
+                </p>
 
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 max-w-screen">
                   {teamMembers.map((member) => {
