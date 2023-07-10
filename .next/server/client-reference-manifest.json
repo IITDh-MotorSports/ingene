@@ -368,6 +368,58 @@
         "async": false
       }
     },
+    "(app-client)/./app/aboutus/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/aboutus/page.js",
+        "name": "*",
+        "chunks": [
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/aboutus/page.js",
+        "name": "",
+        "chunks": [
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/aboutus/page.js",
+        "name": "default",
+        "chunks": [
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/aboutus.js": {
+      "*": {
+        "id": "(sc_client)/./app/components/aboutus.js",
+        "name": "*",
+        "chunks": [
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/aboutus.js",
+        "name": "",
+        "chunks": [
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/aboutus.js",
+        "name": "default",
+        "chunks": [
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/memberDetails.js": {
       "*": {
         "id": "(sc_client)/./app/components/memberDetails.js",
@@ -475,18 +527,21 @@
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\layout": [
+    "/Users/dhiraj/Desktop/ingene/app/layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page": [
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/layout": [
+      "static/css/app/aboutus/layout.css"
+    ],
+    "/Users/dhiraj/Desktop/ingene/app/team/page": [
       "static/css/app/team/page.css"
     ],
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\layout": [
+    "/Users/dhiraj/Desktop/ingene/app/team/layout": [
       "static/css/app/team/layout.css"
     ]
   },
   "clientModules": {
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -494,7 +549,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -502,7 +557,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -510,7 +565,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -518,7 +573,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -526,7 +581,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -534,15 +589,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -550,7 +597,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -558,7 +613,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -566,7 +621,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -574,7 +629,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -582,7 +637,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -590,7 +645,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -598,7 +653,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -606,7 +661,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -614,15 +669,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -630,7 +677,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -638,7 +693,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -646,7 +701,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -654,7 +709,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -662,7 +717,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -670,7 +725,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -678,7 +733,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -686,7 +741,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -694,15 +749,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -710,7 +757,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -718,7 +773,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -726,7 +781,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -734,7 +789,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -742,7 +797,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -750,7 +805,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -758,7 +813,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -766,7 +821,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -774,7 +829,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -782,7 +837,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -790,7 +845,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -798,7 +853,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -806,7 +861,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -814,7 +869,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -822,7 +877,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -830,7 +885,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -838,7 +893,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -846,7 +901,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -854,7 +909,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -862,7 +917,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -870,7 +925,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -878,7 +933,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -886,7 +941,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -894,7 +949,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -902,7 +957,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -910,7 +965,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -918,15 +973,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -934,7 +981,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -942,7 +997,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -950,7 +1005,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -958,7 +1013,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -966,7 +1021,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -974,7 +1029,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -982,15 +1037,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -998,7 +1045,15 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1006,7 +1061,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1014,7 +1069,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1022,7 +1077,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1030,7 +1085,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1038,7 +1093,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1046,7 +1101,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1054,7 +1109,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1062,7 +1117,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1070,7 +1125,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1078,7 +1133,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1086,7 +1141,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1094,7 +1149,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1102,7 +1157,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1110,7 +1165,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1118,7 +1173,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1126,7 +1181,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1134,7 +1189,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1142,7 +1197,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1150,7 +1205,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1158,213 +1213,269 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\globals.css#": {
+    "/Users/dhiraj/Desktop/ingene/app/components/frontPage.js": {
+      "id": "(app-client)/./app/components/frontPage.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/components/frontPage.js#": {
+      "id": "(app-client)/./app/components/frontPage.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/components/frontPage.js#default": {
+      "id": "(app-client)/./app/components/frontPage.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/components/navbar.js": {
+      "id": "(app-client)/./app/components/navbar.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/components/navbar.js#": {
+      "id": "(app-client)/./app/components/navbar.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/components/navbar.js#default": {
+      "id": "(app-client)/./app/components/navbar.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/page.js": {
+      "id": "(app-client)/./app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/page.js#": {
+      "id": "(app-client)/./app/page.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/page.js#default": {
+      "id": "(app-client)/./app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css",
+        "static/css/app/aboutus/layout.css",
         "static/css/app/team/layout.css"
       ]
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\frontPage.js": {
-      "id": "(app-client)/./app/components/frontPage.js",
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/page.js": {
+      "id": "(app-client)/./app/aboutus/page.js",
       "name": "*",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\frontPage.js#": {
-      "id": "(app-client)/./app/components/frontPage.js",
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/page.js#": {
+      "id": "(app-client)/./app/aboutus/page.js",
       "name": "",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\frontPage.js#default": {
-      "id": "(app-client)/./app/components/frontPage.js",
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/page.js#default": {
+      "id": "(app-client)/./app/aboutus/page.js",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\navbar.js": {
-      "id": "(app-client)/./app/components/navbar.js",
+    "/Users/dhiraj/Desktop/ingene/app/components/aboutus.js": {
+      "id": "(app-client)/./app/components/aboutus.js",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\navbar.js#": {
-      "id": "(app-client)/./app/components/navbar.js",
+    "/Users/dhiraj/Desktop/ingene/app/components/aboutus.js#": {
+      "id": "(app-client)/./app/components/aboutus.js",
       "name": "",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\navbar.js#default": {
-      "id": "(app-client)/./app/components/navbar.js",
+    "/Users/dhiraj/Desktop/ingene/app/components/aboutus.js#default": {
+      "id": "(app-client)/./app/components/aboutus.js",
       "name": "default",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\page.js": {
-      "id": "(app-client)/./app/page.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\page.js#": {
-      "id": "(app-client)/./app/page.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\page.js#default": {
-      "id": "(app-client)/./app/page.js",
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/aboutus/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
+        "static/css/app/aboutus/layout.css"
+      ]
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\client\\image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\aos\\dist\\aos.css#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/aos/dist/aos.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/team/page.css"
       ]
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js": {
+    "/Users/dhiraj/Desktop/ingene/app/components/memberDetails.js": {
       "id": "(app-client)/./app/components/memberDetails.js",
       "name": "*",
       "chunks": [
@@ -1372,7 +1483,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js#": {
+    "/Users/dhiraj/Desktop/ingene/app/components/memberDetails.js#": {
       "id": "(app-client)/./app/components/memberDetails.js",
       "name": "",
       "chunks": [
@@ -1380,7 +1491,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js#default": {
+    "/Users/dhiraj/Desktop/ingene/app/components/memberDetails.js#default": {
       "id": "(app-client)/./app/components/memberDetails.js",
       "name": "default",
       "chunks": [
@@ -1388,7 +1499,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js": {
+    "/Users/dhiraj/Desktop/ingene/app/components/teamCard.js": {
       "id": "(app-client)/./app/components/teamCard.js",
       "name": "*",
       "chunks": [
@@ -1396,7 +1507,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js#": {
+    "/Users/dhiraj/Desktop/ingene/app/components/teamCard.js#": {
       "id": "(app-client)/./app/components/teamCard.js",
       "name": "",
       "chunks": [
@@ -1404,7 +1515,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js#default": {
+    "/Users/dhiraj/Desktop/ingene/app/components/teamCard.js#default": {
       "id": "(app-client)/./app/components/teamCard.js",
       "name": "default",
       "chunks": [
@@ -1412,7 +1523,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js": {
+    "/Users/dhiraj/Desktop/ingene/app/components/teamGallery.js": {
       "id": "(app-client)/./app/components/teamGallery.js",
       "name": "*",
       "chunks": [
@@ -1420,7 +1531,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js#": {
+    "/Users/dhiraj/Desktop/ingene/app/components/teamGallery.js#": {
       "id": "(app-client)/./app/components/teamGallery.js",
       "name": "",
       "chunks": [
@@ -1428,7 +1539,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js#default": {
+    "/Users/dhiraj/Desktop/ingene/app/components/teamGallery.js#default": {
       "id": "(app-client)/./app/components/teamGallery.js",
       "name": "default",
       "chunks": [
@@ -1436,7 +1547,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js": {
+    "/Users/dhiraj/Desktop/ingene/app/team/page.js": {
       "id": "(app-client)/./app/team/page.js",
       "name": "*",
       "chunks": [
@@ -1444,7 +1555,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js#": {
+    "/Users/dhiraj/Desktop/ingene/app/team/page.js#": {
       "id": "(app-client)/./app/team/page.js",
       "name": "",
       "chunks": [
@@ -1452,7 +1563,7 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js#default": {
+    "/Users/dhiraj/Desktop/ingene/app/team/page.js#default": {
       "id": "(app-client)/./app/team/page.js",
       "name": "default",
       "chunks": [
@@ -1460,14 +1571,14 @@
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\extra.css#": {
+    "/Users/dhiraj/Desktop/ingene/app/team/extra.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/team/layout.css"
       ]
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\team\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/team/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [

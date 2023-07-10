@@ -15,9 +15,12 @@ export default function TeamCard(props) {
       <div className="z-2 h-full w-full rounded-lg transition ease-in-out duration-600 delay-100 hover:shadow-lg hover:scale-105 hover:backdrop-brightness-0">
         <div className="z-2 grid grid-cols-2">
           <div className="flex flex-row-3">
-            <div></div>
             <div className="p-5 h-52  grayscale transition ease-in-out duration-500 delay-100 hover:scale-105 hover:grayscale-0">
-              <img src={props.link} className="max-h-full max-w-full aspect-auto" />
+              <img
+                alt="member card"
+                src={props.link}
+                className="max-h-full max-w-full aspect-auto"
+              />
             </div>
             <div></div>
           </div>

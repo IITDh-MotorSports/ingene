@@ -1,14 +1,47 @@
 "use client";
+import { teamMembers } from "../assets/teamMembers";
 import TeamCard from "./teamCard";
 
 // importing aos
 
 export default function MemberDetails() {
+  // const [categories, setCategories] = useState([]);
+  const categories = new Set();
+  teamMembers.forEach((member) => {
+    categories.add(member.team);
+  });
+  const categoriesArray = Array.from(categories);
   return (
     <div className="h-screen w-screen p-6">
       <div className="bg-transparent h-screen">
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 h-screen gap-10 max-w-screen">
-          <div>
+        <div>
+          {categoriesArray?.map((category) => {
+            return (
+              <div>
+                <p style={{ fontSize: "2rem" }}>{category}</p>
+
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 max-w-screen">
+                  {teamMembers.map((member) => {
+                    return (
+                      member.team === category && (
+                        <TeamCard
+                          name={member.title}
+                          description={member.paragraph}
+                          link={member.image}
+                          alt={member.title}
+                        />
+                      )
+                    );
+                  })}
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+              </div>
+            );
+          })}
+          {/* <div>
             <TeamCard
               name="Yadav Vansh Suresh"
               description="As the secretary and team leader of InGene Motorsports, I handle the serious stuff with a touch of humor, ensuring our team stays on track and laughing all the way to the finish line."
@@ -169,7 +202,7 @@ I am your quintessential sugar-coated Marathi dude"
               description="Made what you are viewing"
               link="/TeamImages/Sarth.png"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
