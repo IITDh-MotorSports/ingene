@@ -230,28 +230,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/components/memberDetails.js": {
+    "(app-client)/./app/components/frontPage.js": {
       "*": {
-        "id": "(sc_client)/./app/components/memberDetails.js",
+        "id": "(sc_client)/./app/components/frontPage.js",
         "name": "*",
         "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/components/memberDetails.js",
+        "id": "(sc_client)/./app/components/frontPage.js",
         "name": "",
         "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/memberDetails.js",
+        "id": "(sc_client)/./app/components/frontPage.js",
         "name": "default",
         "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -275,6 +275,118 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./app/components/navbar.js",
+        "name": "default",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "default",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      },
+      "defaultHead": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "defaultHead",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/memberDetails.js": {
+      "*": {
+        "id": "(sc_client)/./app/components/memberDetails.js",
+        "name": "*",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/memberDetails.js",
+        "name": "",
+        "chunks": [
+          "app/team/page:static/chunks/app/team/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/memberDetails.js",
         "name": "default",
         "chunks": [
           "app/team/page:static/chunks/app/team/page.js"
@@ -359,66 +471,6 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "",
-        "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "default",
-        "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
-        ],
-        "async": false
-      },
-      "defaultHead": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "defaultHead",
-        "chunks": [
-          "app/team/page:static/chunks/app/team/page.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -426,11 +478,11 @@ self.__RSC_MANIFEST={
     "C:\\Users\\sarth\\Desktop\\ingene\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\layout": [
-      "static/css/app/team/layout.css"
-    ],
     "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page": [
       "static/css/app/team/page.css"
+    ],
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\layout": [
+      "static/css/app/team/layout.css"
     ]
   },
   "clientModules": {
@@ -1121,48 +1173,27 @@ self.__RSC_MANIFEST={
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\extra.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/team/layout.css"
-      ]
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\team\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/team/layout.css"
-      ]
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\aos\\dist\\aos.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/team/page.css"
-      ]
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js": {
-      "id": "(app-client)/./app/components/memberDetails.js",
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\frontPage.js": {
+      "id": "(app-client)/./app/components/frontPage.js",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js#": {
-      "id": "(app-client)/./app/components/memberDetails.js",
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\frontPage.js#": {
+      "id": "(app-client)/./app/components/frontPage.js",
       "name": "",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js#default": {
-      "id": "(app-client)/./app/components/memberDetails.js",
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\frontPage.js#default": {
+      "id": "(app-client)/./app/components/frontPage.js",
       "name": "default",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1190,75 +1221,27 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js": {
-      "id": "(app-client)/./app/components/teamCard.js",
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\page.js": {
+      "id": "(app-client)/./app/page.js",
       "name": "*",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js#": {
-      "id": "(app-client)/./app/components/teamCard.js",
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\page.js#": {
+      "id": "(app-client)/./app/page.js",
       "name": "",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js#default": {
-      "id": "(app-client)/./app/components/teamCard.js",
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\page.js#default": {
+      "id": "(app-client)/./app/page.js",
       "name": "default",
       "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js": {
-      "id": "(app-client)/./app/components/teamGallery.js",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js#": {
-      "id": "(app-client)/./app/components/teamGallery.js",
-      "name": "",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js#default": {
-      "id": "(app-client)/./app/components/teamGallery.js",
-      "name": "default",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js": {
-      "id": "(app-client)/./app/team/page.js",
-      "name": "*",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js#": {
-      "id": "(app-client)/./app/team/page.js",
-      "name": "",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js#default": {
-      "id": "(app-client)/./app/team/page.js",
-      "name": "default",
-      "chunks": [
-        "app/team/page:static/chunks/app/team/page.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -1373,6 +1356,123 @@ self.__RSC_MANIFEST={
         "app/team/page:static/chunks/app/team/page.js"
       ],
       "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\aos\\dist\\aos.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/page.css"
+      ]
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js": {
+      "id": "(app-client)/./app/components/memberDetails.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js#": {
+      "id": "(app-client)/./app/components/memberDetails.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\memberDetails.js#default": {
+      "id": "(app-client)/./app/components/memberDetails.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js": {
+      "id": "(app-client)/./app/components/teamCard.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js#": {
+      "id": "(app-client)/./app/components/teamCard.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamCard.js#default": {
+      "id": "(app-client)/./app/components/teamCard.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js": {
+      "id": "(app-client)/./app/components/teamGallery.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js#": {
+      "id": "(app-client)/./app/components/teamGallery.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\components\\teamGallery.js#default": {
+      "id": "(app-client)/./app/components/teamGallery.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js": {
+      "id": "(app-client)/./app/team/page.js",
+      "name": "*",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js#": {
+      "id": "(app-client)/./app/team/page.js",
+      "name": "",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\page.js#default": {
+      "id": "(app-client)/./app/team/page.js",
+      "name": "default",
+      "chunks": [
+        "app/team/page:static/chunks/app/team/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\app\\team\\extra.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
+    },
+    "C:\\Users\\sarth\\Desktop\\ingene\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\team\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
     }
   }
 }

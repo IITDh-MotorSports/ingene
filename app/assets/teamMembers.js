@@ -159,7 +159,7 @@ const teamMembers = [
     id: 19,
     title: "Ayush Singhi",
     paragraph: "Team Head",
-    image: "/TeamImages/Singhi.jpg",
+    image: "/TeamImages/ayush.jpeg",
     team: "electronics",
   },
   {

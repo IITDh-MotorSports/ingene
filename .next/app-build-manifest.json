@@ -6,17 +6,22 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/team/layout": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/team/layout.css",
-      "static/chunks/app/team/layout.js"
+      "static/chunks/app/page.js"
     ],
     "/team/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/team/page.css",
       "static/chunks/app/team/page.js"
+    ],
+    "/team/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/team/layout.css",
+      "static/chunks/app/team/layout.js"
     ]
   }
 }
