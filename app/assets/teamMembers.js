@@ -181,7 +181,7 @@ const teamMembers = [
     id: 22,
     title: "Manindra Singh Rathore",
     paragraph: "Team Head",
-    image: "/TeamImages/IMG_20230517_163633 - Manindra Singh Rathore.jpg",
+    image: "/TeamImages/mani2.jpg",
     team: "Outreach",
   },
   {
