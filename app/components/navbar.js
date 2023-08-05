@@ -20,6 +20,7 @@ import {
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
+import "./style.css";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -45,7 +46,7 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -55,19 +56,19 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a
             href="/team"
-            className="text-xl font-semibold leading-6 text-white"
+            className="text-xl font-semibold leading-6 text-white nav-menu"
           >
             Team
           </a>
           <a
             href="/aboutus"
-            className="text-xl font-semibold leading-6 text-white"
+            className="text-xl font-semibold leading-6 text-white nav-menu"
           >
             About Us
           </a>
           <a
             href="/FAQs"
-            className="text-xl font-semibold leading-6 text-white"
+            className="text-xl font-semibold leading-6 text-white nav-menu"
           >
             FAQs
           </a>
@@ -148,6 +149,12 @@ export default function Navbar() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About
+                </a>
+                <a
+                  href="/FAQs"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  FAQs
                 </a>
               </div>
               {/* <div className="py-6">

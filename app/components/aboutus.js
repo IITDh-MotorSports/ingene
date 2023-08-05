@@ -17,7 +17,7 @@ import Navbar from "./navbar";
 
 export default function AboutUs() {
   return (
-    <div className="relative isolate overflow-x-hidden overflow-y-auto bg-gray-900 py-10 sm:py-10 h-screen">
+    <div className="relative isolate overflow-x-hidden overflow-y-auto bg-gray-900 h-screen">
       <Navbar />
       <img
         src="https://images.unsplash.com/photo-1614949194403-9602bdc14a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80y"
@@ -54,18 +54,21 @@ export default function AboutUs() {
             About InGene Motorsports Club
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Welcome to InGene, the motorsports club of the Indian Institute of Technology (IIT)
-            Dharwad, dedicated to the thrilling world of Formula Bharat! We are a passionate group
-            of students who share a common love for motorsports and are committed to pushing the
+            Welcome to InGene, the motorsports club of the Indian Institute of
+            Technology (IIT) Dharwad, dedicated to the thrilling world of
+            Formula Bharat! We are a passionate group of students who share a
+            common love for motorsports and are committed to pushing the
             boundaries of engineering and innovation in the field.
           </p>
           <h3>Our Vision</h3>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            At InGene, our vision is to foster a culture of motorsports excellence within the IIT
-            Dharwad community and beyond. We aim to provide a platform for students to develop their
-            engineering skills, unleash their creativity, and compete at the highest level of
-            Formula Bharat. Through teamwork, dedication, and a relentless pursuit of excellence, we
-            strive to make our mark in the world of motorsports.
+            At InGene, our vision is to foster a culture of motorsports
+            excellence within the IIT Dharwad community and beyond. We aim to
+            provide a platform for students to develop their engineering skills,
+            unleash their creativity, and compete at the highest level of
+            Formula Bharat. Through teamwork, dedication, and a relentless
+            pursuit of excellence, we strive to make our mark in the world of
+            motorsports.
           </p>
         </div>
         {/* <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

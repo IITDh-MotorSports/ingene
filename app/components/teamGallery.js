@@ -15,7 +15,7 @@ import Image from "next/image";
 import Navbar from "../components/navbar";
 export default function TeamGallery() {
   return (
-    <div className="max-w-screen h-screen overflow-hidden py-10 ">
+    <div className="max-w-screen h-screen overflow-hidden">
       <Navbar />
       <div className="w-screen max-h-screen overflow-hidden fixed -z-10 top-0">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 w-screen h-screen">

@@ -1,0 +1,5 @@
+.nav-menu:hover{
+    text-decoration: underline;
+    transition-duration: 500ms;
+   text-underline-offset: 8px;
+}

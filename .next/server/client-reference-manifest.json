@@ -261,7 +261,7 @@
         "id": "(sc_client)/./app/components/navbar.js",
         "name": "*",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       },
@@ -269,7 +269,7 @@
         "id": "(sc_client)/./app/components/navbar.js",
         "name": "",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       },
@@ -277,7 +277,7 @@
         "id": "(sc_client)/./app/components/navbar.js",
         "name": "default",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       }
@@ -313,7 +313,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       },
@@ -321,7 +321,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       },
@@ -329,7 +329,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       }
@@ -339,7 +339,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "*",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       },
@@ -347,7 +347,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       },
@@ -355,13 +355,39 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "default",
         "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
         ],
         "async": false
       },
       "defaultHead": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
         "name": "defaultHead",
+        "chunks": [
+          "app/aboutus/page:static/chunks/app/aboutus/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/FAQs/FAQs.js": {
+      "*": {
+        "id": "(sc_client)/./app/FAQs/FAQs.js",
+        "name": "*",
+        "chunks": [
+          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/FAQs/FAQs.js",
+        "name": "",
+        "chunks": [
+          "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/FAQs/FAQs.js",
+        "name": "default",
         "chunks": [
           "app/FAQs/page:static/chunks/app/FAQs/page.js"
         ],
@@ -523,47 +549,27 @@
         ],
         "async": false
       }
-    },
-    "(app-client)/./app/FAQs/FAQs.js": {
-      "*": {
-        "id": "(sc_client)/./app/FAQs/FAQs.js",
-        "name": "*",
-        "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/FAQs/FAQs.js",
-        "name": "",
-        "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/FAQs/FAQs.js",
-        "name": "default",
-        "chunks": [
-          "app/FAQs/page:static/chunks/app/FAQs/page.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
+    "/Users/dhiraj/Desktop/ingene/app/page": [
+      "static/css/app/page.css"
+    ],
     "/Users/dhiraj/Desktop/ingene/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/dhiraj/Desktop/ingene/app/team/layout": [
-      "static/css/app/team/layout.css"
+    "/Users/dhiraj/Desktop/ingene/app/FAQs/page": [
+      "static/css/app/FAQs/page.css"
     ],
     "/Users/dhiraj/Desktop/ingene/app/team/page": [
       "static/css/app/team/page.css"
     ],
-    "/Users/dhiraj/Desktop/ingene/app/FAQs/page": [
-      "static/css/app/FAQs/page.css"
+    "/Users/dhiraj/Desktop/ingene/app/team/layout": [
+      "static/css/app/team/layout.css"
+    ],
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/page": [
+      "static/css/app/aboutus/page.css"
     ],
     "/Users/dhiraj/Desktop/ingene/app/aboutus/layout": [
       "static/css/app/aboutus/layout.css"
@@ -1242,6 +1248,16 @@
       ],
       "async": false
     },
+    "/Users/dhiraj/Desktop/ingene/app/components/style.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css",
+        "static/css/app/FAQs/page.css",
+        "static/css/app/team/page.css",
+        "static/css/app/aboutus/page.css"
+      ]
+    },
     "/Users/dhiraj/Desktop/ingene/app/components/frontPage.js": {
       "id": "(app-client)/./app/components/frontPage.js",
       "name": "*",
@@ -1270,7 +1286,7 @@
       "id": "(app-client)/./app/components/navbar.js",
       "name": "*",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1278,7 +1294,7 @@
       "id": "(app-client)/./app/components/navbar.js",
       "name": "",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1286,7 +1302,7 @@
       "id": "(app-client)/./app/components/navbar.js",
       "name": "default",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1318,7 +1334,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1326,7 +1342,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1334,7 +1350,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1342,7 +1358,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1350,7 +1366,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1358,7 +1374,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1366,7 +1382,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1374,7 +1390,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1382,7 +1398,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1390,7 +1406,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1398,7 +1414,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1406,7 +1422,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1414,7 +1430,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1422,7 +1438,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+        "app/aboutus/page:static/chunks/app/aboutus/page.js"
       ],
       "async": false
     },
@@ -1442,19 +1458,36 @@
         "static/css/app/layout.css"
       ]
     },
-    "/Users/dhiraj/Desktop/ingene/app/team/extra.css#": {
+    "/Users/dhiraj/Desktop/ingene/app/FAQs/style.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/team/layout.css"
+        "static/css/app/FAQs/page.css"
       ]
     },
-    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/team/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
+    "/Users/dhiraj/Desktop/ingene/app/FAQs/FAQs.js": {
+      "id": "(app-client)/./app/FAQs/FAQs.js",
+      "name": "*",
+      "chunks": [
+        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/FAQs/FAQs.js#": {
+      "id": "(app-client)/./app/FAQs/FAQs.js",
+      "name": "",
+      "chunks": [
+        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+      ],
+      "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/app/FAQs/FAQs.js#default": {
+      "id": "(app-client)/./app/FAQs/FAQs.js",
       "name": "default",
       "chunks": [
-        "static/css/app/team/layout.css"
-      ]
+        "app/FAQs/page:static/chunks/app/FAQs/page.js"
+      ],
+      "async": false
     },
     "/Users/dhiraj/Desktop/ingene/node_modules/aos/dist/aos.css#": {
       "id": "null",
@@ -1559,6 +1592,20 @@
       ],
       "async": false
     },
+    "/Users/dhiraj/Desktop/ingene/app/team/extra.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/team/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
+    },
     "/Users/dhiraj/Desktop/ingene/app/aboutus/page.js": {
       "id": "(app-client)/./app/aboutus/page.js",
       "name": "*",
@@ -1604,37 +1651,6 @@
       "name": "default",
       "chunks": [
         "app/aboutus/page:static/chunks/app/aboutus/page.js"
-      ],
-      "async": false
-    },
-    "/Users/dhiraj/Desktop/ingene/app/FAQs/style.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/FAQs/page.css"
-      ]
-    },
-    "/Users/dhiraj/Desktop/ingene/app/FAQs/FAQs.js": {
-      "id": "(app-client)/./app/FAQs/FAQs.js",
-      "name": "*",
-      "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
-      ],
-      "async": false
-    },
-    "/Users/dhiraj/Desktop/ingene/app/FAQs/FAQs.js#": {
-      "id": "(app-client)/./app/FAQs/FAQs.js",
-      "name": "",
-      "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
-      ],
-      "async": false
-    },
-    "/Users/dhiraj/Desktop/ingene/app/FAQs/FAQs.js#default": {
-      "id": "(app-client)/./app/FAQs/FAQs.js",
-      "name": "default",
-      "chunks": [
-        "app/FAQs/page:static/chunks/app/FAQs/page.js"
       ],
       "async": false
     },

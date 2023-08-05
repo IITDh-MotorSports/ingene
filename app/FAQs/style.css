@@ -10,9 +10,15 @@ body {
   font-size: 10px;
   /* background: #F6F8FC; */
 }
+.faqs-nav{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://r4.wallpaperflare.com/wallpaper/531/72/20/red-bull-formula-1-car-racing-wallpaper-f910e8cd01fa1d7b1647f89f3091360d.jpg');
+    background-size: cover;
+}
 
 .heading {
-  color: #212943;
+  color: #f7f7f7;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -22,7 +28,7 @@ body {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
- 
+  min-height: 100vh;
 }
 
 form {
@@ -32,13 +38,15 @@ form {
   align-items: center;
   margin: 0 auto;
   border-radius: 1rem;
-  box-shadow: 0px 5px 13px 0px #DEE4F1;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 form svg {
   height: 1rem;
   fill: #9EA6AE;
   max-width: 4rem;
 }
+
+.searchbar:focus {outline:none;}
 
 .searchbar {
   font-family: "Poppins", sans-serif;
@@ -67,7 +75,7 @@ form:focus {
 
 .question-wrapper {
   max-width: 35rem;
-  border-bottom: 1px solid #DEE4F1;
+  border-bottom: 0.2px solid #b7bcc2;
   margin: 0 auto;
   padding: 1rem;
   transition: 1s;
@@ -78,14 +86,17 @@ form:focus {
   display: flex;
   font-size: 1rem;
   font-weight: 500;
-  color: #212943;
+  color: #d6d7de;
   display: flex;
   justify-content: space-between;
+}
+.question:hover{
+    cursor: pointer;
 }
 .question svg {
   width: 1rem;
   height: 1.5rem;
-  fill: #9EA6AE;
+  fill: white;
 }
 .question svg.active {
   transform: rotate(180deg);
@@ -115,7 +126,7 @@ button:focus {
   font-weight: light;
   font-size: 1rem;
   line-height: 1.5;
-  color: #838383;
+  color: #f1f1f1;
   height: 0%;
   animation: slidein 0.4s;
   animation-fill-mode: forwards;

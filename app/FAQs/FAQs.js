@@ -105,9 +105,13 @@ const Question = (props) => {
   };
   return (
     <div className="question-wrapper">
-      <div className="question" id={props.id}>
+      <div
+        className="question"
+        id={props.id}
+        onClick={() => handleClick(props.id)}
+      >
         <h3>{props.question}</h3>
-        <button onClick={() => handleClick(props.id)}>
+        <button>
           <svg
             className={isActive ? "active" : ""}
             viewBox="0 0 320 512"

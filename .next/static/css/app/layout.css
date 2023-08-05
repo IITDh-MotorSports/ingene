@@ -1,6 +1,6 @@
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.js","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
   font-family: '__Inter_0ec1f4';
@@ -659,9 +659,6 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.mb-4 {
-  margin-bottom: 1rem;
-}
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -795,12 +792,6 @@ video {
 }
 .flex-col-reverse {
   flex-direction: column-reverse;
-}
-.place-items-center {
-  place-items: center;
-}
-.content-center {
-  align-content: center;
 }
 .items-center {
   align-items: center;
@@ -941,15 +932,6 @@ video {
 }
 .pt-20 {
   padding-top: 5rem;
-}
-.text-center {
-  text-align: center;
-}
-.align-top {
-  vertical-align: top;
-}
-.align-bottom {
-  vertical-align: bottom;
 }
 .text-2xl {
   font-size: 1.5rem;
