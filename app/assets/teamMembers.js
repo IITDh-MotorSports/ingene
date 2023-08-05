@@ -1,11 +1,32 @@
 const teamMembers = [
-  // Club Secratary
+  // Core Team
   {
     id: 1,
     title: "Vansh Yadav",
     paragraph: "Club Secretary, Aerodynamics Team Head",
     image: "/TeamImages/IMG_20220307_183329__01__01 - Yadav Vansh Suresh.jpg",
-    team: "secretary",
+    team: "Core Team",
+  },
+  {
+    id: 29,
+    title: "Varun Limaye",
+    paragraph: "Core Team Member",
+    image: "/TeamImages/IMG_20221126_220957~2 - Varun Shantanu Limaye.jpg",
+    team: "Core Team",
+  },
+  {
+    id: 30,
+    title: "Harsh Vardhan Chowdhary",
+    paragraph: "Core Team Memberd",
+    image: "/TeamImages/IMG_20230520_124748 - Harsh Vardhan Chowdhary.jpg",
+    team: "Core Team",
+  },
+  {
+    id: 31,
+    title: "Arindam Thander",
+    paragraph: "Core Team Member",
+    image: "/TeamImages/IMG_20230321_192316 - Arindam Thander.jpg",
+    team: "Core Team",
   },
   // Aerodynamics Team
   {
@@ -94,7 +115,7 @@ const teamMembers = [
     id: 13,
     title: "Hari Prasad P",
     paragraph: "Team Head",
-    image: "/TeamImages/Hari_Prasad_P.jpg",
+    image: "/TeamImages/_MG_0431-min - Hari Prasad P.jpg",
     team: "chassis",
   },
   {
@@ -130,7 +151,7 @@ const teamMembers = [
     id: 18,
     title: "Surzith Raj Pandi",
     paragraph: "Team Member",
-    image: "/TeamImages/IMG_3720 - S. Surzith Raj Pandi.jpg",
+    image: "/TeamImages/srp.jpeg",
     team: "steering",
   },
   //Electronis Team
@@ -138,7 +159,7 @@ const teamMembers = [
     id: 19,
     title: "Ayush Singhi",
     paragraph: "Team Head",
-    image: "/TeamImages/singhi.jpg",
+    image: "/TeamImages/ayush.jpeg",
     team: "electronics",
   },
   {
@@ -160,8 +181,8 @@ const teamMembers = [
     id: 22,
     title: "Manindra Singh Rathore",
     paragraph: "Team Head",
-    image: "/TeamImages/IMG_20230517_163633 - Manindra Singh Rathore.jpg",
-    team: "media",
+    image: "/TeamImages/mani2.jpg",
+    team: "Outreach",
   },
   {
     id: 23,
@@ -169,14 +190,15 @@ const teamMembers = [
     paragraph: "Team Member",
     image:
       "/TeamImages/02584B0C-C50E-4205-A4FD-F6D13D5D1215 - Gudapareddy Naganandini.jpeg",
-    team: "media",
+    team: "Outreach",
   },
+  //reports and documentation
   {
     id: 24,
     title: "Simoni Tripathi",
     paragraph: "Team Member",
     image: "/TeamImages/20230516_202329 - Simoni Tripathi.jpg",
-    team: "media",
+    team: "Reports and Documentation",
   },
   {
     id: 25,
@@ -184,7 +206,7 @@ const teamMembers = [
     paragraph: "Team Member",
     image:
       "https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
-    team: "media",
+    team: "Reports and Documentation",
   },
   //webops
   {

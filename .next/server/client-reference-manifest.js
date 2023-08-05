@@ -556,17 +556,17 @@ self.__RSC_MANIFEST={
     "/Users/dhiraj/Desktop/ingene/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/dhiraj/Desktop/ingene/app/team/page": [
-      "static/css/app/team/page.css"
-    ],
     "/Users/dhiraj/Desktop/ingene/app/team/layout": [
       "static/css/app/team/layout.css"
     ],
-    "/Users/dhiraj/Desktop/ingene/app/aboutus/layout": [
-      "static/css/app/aboutus/layout.css"
+    "/Users/dhiraj/Desktop/ingene/app/team/page": [
+      "static/css/app/team/page.css"
     ],
     "/Users/dhiraj/Desktop/ingene/app/FAQs/page": [
       "static/css/app/FAQs/page.css"
+    ],
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/layout": [
+      "static/css/app/aboutus/layout.css"
     ]
   },
   "clientModules": {
@@ -1442,6 +1442,20 @@ self.__RSC_MANIFEST={
         "static/css/app/layout.css"
       ]
     },
+    "/Users/dhiraj/Desktop/ingene/app/team/extra.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/team/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/team/layout.css"
+      ]
+    },
     "/Users/dhiraj/Desktop/ingene/node_modules/aos/dist/aos.css#": {
       "id": "null",
       "name": "default",
@@ -1545,20 +1559,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/dhiraj/Desktop/ingene/app/team/extra.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/team/layout.css"
-      ]
-    },
-    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/team/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/team/layout.css"
-      ]
-    },
     "/Users/dhiraj/Desktop/ingene/app/aboutus/page.js": {
       "id": "(app-client)/./app/aboutus/page.js",
       "name": "*",
@@ -1607,13 +1607,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/aboutus/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/aboutus/layout.css"
-      ]
-    },
     "/Users/dhiraj/Desktop/ingene/app/FAQs/style.css#": {
       "id": "null",
       "name": "default",
@@ -1644,6 +1637,13 @@ self.__RSC_MANIFEST={
         "app/FAQs/page:static/chunks/app/FAQs/page.js"
       ],
       "async": false
+    },
+    "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/aboutus/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/aboutus/layout.css"
+      ]
     }
   }
 }
