@@ -4,10 +4,6 @@
       "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "/Users/dhiraj/Desktop/ingene/app/globals.css"
     ],
-    "/Users/dhiraj/Desktop/ingene/app/aboutus/layout.js": [
-      "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/aboutus/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "/Users/dhiraj/Desktop/ingene/app/globals.css"
-    ],
     "/Users/dhiraj/Desktop/ingene/app/team/page.js": [
       "/Users/dhiraj/Desktop/ingene/node_modules/aos/dist/aos.css"
     ],
@@ -15,16 +11,18 @@
       "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/team/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "/Users/dhiraj/Desktop/ingene/app/globals.css",
       "/Users/dhiraj/Desktop/ingene/app/team/extra.css"
+    ],
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/layout.js": [
+      "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/aboutus/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/dhiraj/Desktop/ingene/app/globals.css"
+    ],
+    "/Users/dhiraj/Desktop/ingene/app/FAQs/page.js": [
+      "/Users/dhiraj/Desktop/ingene/app/FAQs/style.css"
     ]
   },
   "cssModules": {
     "/Users/dhiraj/Desktop/ingene/app/page": [
       "/Users/dhiraj/Desktop/ingene/app/globals.css",
-      "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
-    ],
-    "/Users/dhiraj/Desktop/ingene/app/aboutus/page": [
-      "/Users/dhiraj/Desktop/ingene/app/globals.css",
-      "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/aboutus/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
     "/Users/dhiraj/Desktop/ingene/app/team/page": [
@@ -33,6 +31,16 @@
       "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/team/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "/Users/dhiraj/Desktop/ingene/node_modules/aos/dist/aos.css"
+    ],
+    "/Users/dhiraj/Desktop/ingene/app/aboutus/page": [
+      "/Users/dhiraj/Desktop/ingene/app/globals.css",
+      "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/aboutus/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "/Users/dhiraj/Desktop/ingene/app/FAQs/page": [
+      "/Users/dhiraj/Desktop/ingene/app/globals.css",
+      "/Users/dhiraj/Desktop/ingene/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/Users/dhiraj/Desktop/ingene/app/FAQs/style.css"
     ]
   }
 }

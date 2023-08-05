@@ -11,7 +11,11 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
+import {
+  ChevronDownIcon,
+  PhoneIcon,
+  PlayCircleIcon,
+} from "@heroicons/react/20/solid";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -29,7 +33,12 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Image className="h-20 w-20 rounded-full" src="/logo.png" width={200} height={200} />
+            <Image
+              className="h-20 w-20 rounded-full"
+              src="/logo.png"
+              width={200}
+              height={200}
+            />
             {/* <img className="h-8 w-auto" src="../../public/InGene LOGO.png" alt="" /> */}
           </a>
         </div>
@@ -44,11 +53,23 @@ export default function Navbar() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="/team" className="text-xl font-semibold leading-6 text-white">
+          <a
+            href="/team"
+            className="text-xl font-semibold leading-6 text-white"
+          >
             Team
           </a>
-          <a href="/aboutus" className="text-xl font-semibold leading-6 text-white">
+          <a
+            href="/aboutus"
+            className="text-xl font-semibold leading-6 text-white"
+          >
             About Us
+          </a>
+          <a
+            href="/FAQs"
+            className="text-xl font-semibold leading-6 text-white"
+          >
+            FAQs
           </a>
           {/* <a href="/timeline" className="text-xl font-semibold leading-6 text-white">
             Timeline
@@ -60,7 +81,12 @@ export default function Navbar() {
           </a> */}
         </div>
       </nav>
-      <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+      <Dialog
+        as="div"
+        className="lg:hidden"
+        open={mobileMenuOpen}
+        onClose={setMobileMenuOpen}
+      >
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">

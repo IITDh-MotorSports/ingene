@@ -26,10 +26,10 @@ export default function TeamCard(props) {
           </div>
           <div>
             <div className="p-5">
-              <p className="font-bold xl:text-2xl lg:text-xl md:text-lg sm:text-base">
+              <p className="font-bold xl:text-2xl lg:text-xl md:text-lg sm:text-base text-white">
                 {props.name}
               </p>
-              <p className="xl:text-base xl:block lg:text-xs lg:block md:block md:text-sm sm:hidden">
+              <p className="xl:text-base xl:block lg:text-xs lg:block md:block md:text-sm sm:hidden text-white">
                 {props.description}
               </p>
             </div>

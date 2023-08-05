@@ -21,11 +21,11 @@ export default function MemberDetails() {
           {categoriesArray?.map((category) => {
             return (
               <div>
-                <p style={{ fontSize: "2rem" }}>
+                <p style={{ fontSize: "2rem", color: "white" }}>
                   {capitalizeFirstLetter(category)}
                 </p>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 max-w-screen">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 max-w-screen mx-auto">
                   {teamMembers.map((member) => {
                     return (
                       member.team === category && (
