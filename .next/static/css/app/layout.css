@@ -790,8 +790,14 @@ video {
 .grid-rows-3 {
   grid-template-rows: repeat(3, minmax(0, 1fr));
 }
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+.content-center {
+  align-content: center;
 }
 .items-center {
   align-items: center;
