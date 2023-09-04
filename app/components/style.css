@@ -3,3 +3,35 @@
     transition-duration: 500ms;
    text-underline-offset: 8px;
 }
+.team-gallery{
+    justify-content: center;
+    text-align: center;
+}
+
+
+.team-member-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member-gallery-entry {
+    flex: 0 0 calc(33.33% - 10px); /* Set a flex basis of 33.33% (3 items per row) minus the gap */
+    margin: 20px;
+    margin-bottom: 10px; /* Add margin to create a gap between flex items */
+    /* You can adjust the margin and percentage to control the spacing and the number of items per row */
+  }
+  
+  /* Media query to gradually decrease the number of items per row */
+  @media screen and (max-width: 768px) {
+    .team-member-gallery-entry {
+      flex-basis: calc(50% - 10px); /* Adjust the flex-basis for 2 items per row */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .team-member-gallery-entry {
+      flex-basis: calc(100% - 10px); /* Adjust the flex-basis for 1 item per row */
+    }
+  }
+  

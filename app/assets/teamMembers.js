@@ -1,4 +1,14 @@
 const teamMembers = [
+
+  // Faculty Advisor 
+  {
+    id: 0,
+    title: "Prof. Surya Prakash Ramesh",
+    paragraph: "Faculty Advisor",
+    image: "/TeamImages/SuryaPrakash.jpg",
+    team: "Faculty",
+  },
+
   // Core Team
   {
     id: 1,

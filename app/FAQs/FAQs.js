@@ -90,7 +90,7 @@ const Searchbar = (props) => {
       <input
         className="searchbar"
         type="text"
-        placeholder="Describe your issue"
+        placeholder="Find your question"
         onChange={handleChange}
         value={value}
       />
